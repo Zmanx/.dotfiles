@@ -49,3 +49,4 @@ filetype plugin on      " load file-specific plugins
 filetype indent on      " load file-specific indentation
 
 set clipboard+=unnamed
+set laststatus=2 

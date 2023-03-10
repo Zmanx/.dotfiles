@@ -192,3 +192,4 @@ setopt share_history
 setopt AUTO_CD
 
 setopt AUTO_PARAM_KEYS
+source ~/powerlevel10k/powerlevel10k.zsh-theme
