@@ -3,3 +3,5 @@
 	email = zmanxman123@gmail.com
 [core]
 	editor = vim
+[init]
+	default = branch

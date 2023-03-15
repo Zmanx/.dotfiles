@@ -38,9 +38,6 @@ inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 let maplocalleader = "-"
 set encoding=utf-8
 
-if empty(v:servername) && exists('*remote_startserver')
-  call remote_startserver('VIM')
-endif
 
 let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips']
 
@@ -50,3 +47,9 @@ filetype indent on      " load file-specific indentation
 
 set clipboard+=unnamed
 set laststatus=2 
+
+if empty(v:servername) && exists('*remote_startserver')
+  call remote_startserver('VIM')
+endif
+
+let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips']         
