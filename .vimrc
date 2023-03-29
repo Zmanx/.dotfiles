@@ -3,7 +3,6 @@ set relativenumber
 set tabstop=4
 set shiftwidth=4
 set autoindent
-colorscheme slate 
 set textwidth=80
 set expandtab 
 set nocompatible 
@@ -11,7 +10,6 @@ filetype on
 filetype plugin on
 filetype indent on
 syntax on 
-colorscheme slate 
 call plug#begin('~/.vim/plugged')
 
 Plug 'lervag/vimtex'
